@@ -1,0 +1,38 @@
+name: decorator_shard
+version: 0.1.0
+
+authors:
+  - Stephen Dolan <stephen@luckycasts.com>
+
+targets:
+  decorator_shard:
+    main: src/decorator_shard.cr
+
+crystal: 0.35.1
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.25.0
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.7.1
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.2
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: ~> 0.7.0
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.7.1
+  jwt:
+    github: crystal-community/jwt
+    version: ~> 1.4.2
+  decorator:
+    github: stephendolan/decorator
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    branch: master
