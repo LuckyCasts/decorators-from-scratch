@@ -1,4 +1,4 @@
-database_name = "decorator_shard_#{Lucky::Env.name}"
+database_name = "decorators_from_scratch_#{Lucky::Env.name}"
 
 AppDatabase.configure do |settings|
   if Lucky::Env.production?
